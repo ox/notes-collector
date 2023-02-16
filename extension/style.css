@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 8px;
+}
+
+form-elements {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-elements>*+* {
+  margin-top: 8px;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
+
+input[type="text"] {
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 0.1em 0.3em;
+}
+
+input[type="submit"] {
+  padding: 0.1em 0.3em;
+}
+
+.save-result {
+  margin-left: 1em;
+  font-style: italic;
+  color: gray;
+}
